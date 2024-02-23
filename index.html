@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h2>Registration Form</h2>
+            <div class="flex ">
+                <div class="item">
+
+                    <label for="icard">I-card Number</label>
+                    <input type="text" name="icard" placeholder="Enter 1-card Number">
+                </div>
+
+                <div class="item">
+                    <label for="name">Student Name</label>
+                    <input type="text" name="name" placeholder="Enter Student Name">
+                </div>
+            </div>
+            <div class="flex">
+                <div class="item">
+                    <label for="session">Session</label>
+                    <input type="text" name="session" placeholder="Enter Session">
+                </div>
+                <div class="item">
+                    <label for="fatherName">Father Name</label>
+                    <input type="text" name="fatherName" placeholder="Enter Father Name">
+                </div>
+                <div class="item">
+                    <label for="course">Course</label>
+                    <select name="course" id="">
+                        <option value="select">Select Course</option>
+                        <option value="ADIT">ADIT</option>
+                        <option value="ADHNT">ADHN</option>
+                        <option value="HACKING">HACKING</option>
+                        <option value="ROBOTICS">ROBOTICS</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex ">
+                <div class="item">
+                    <label for="address" id="address">Address</label>
+                    <input type="text" name="address" placeholder="1234 Main Student">
+                </div>
+            </div>
+            <div class="flex">
+                <div class="item">
+                    <label for="city">City</label>
+                    <select name="city" id="city">
+                        <option value="select">Select Course</option>
+                        <option value="Roorkee">Roorkee</option>
+                        <option value="Firozabad">Firozabad</option>
+                        <option value="Agra-1">Agra-1</option>
+                        <option value="Agra-2">Agra-2</option>
+                        <option value="Mathura">Mathura</option>
+                        <option value="Gwalior">Gwalior</option>
+                        <option value="Muzaffar Nagar">Muzaffar Nagar</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="UP">UP </option>
+                        <option value="Mainpur">Mainpur</option>
+                        <option value="MP">MP</option>
+                        <option value="Jharkhand-1">Jharkhand-1</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="flex " id="col">
+                <input type="file" id="inputFile">
+                <img src="img/profile.webp" alt="img" id="img">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
